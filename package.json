@@ -1,0 +1,33 @@
+{
+  "name": "forkorg",
+  "version": "1.0.1",
+  "description": "fork all the repos for a github organization",
+  "main": "./lib/main.js",
+  "bin": {
+    "forkorg": "./bin/forkorg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:helpdotcom/forkorg"
+  },
+  "keywords": [
+    "github",
+    "fork",
+    "organization",
+    "org",
+    "forking",
+    "git"
+  ],
+  "author": "Help.com, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helpdotcom/forkorg/issues"
+  },
+  "homepage": "https://github.com/helpdotcom/forkorg",
+  "dependencies": {
+    "assert-dotenv": "^2.0.0",
+    "github": "^0.2.3",
+    "underscore": "^1.7.0",
+    "underscore.haz": "^1.0.1"
+  }
+}
