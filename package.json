@@ -1,6 +1,6 @@
 {
   "name": "forkorg",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "fork all the repos for a github organization",
   "main": "./lib/main.js",
   "bin": {
@@ -29,5 +29,10 @@
     "github": "^0.2.3",
     "underscore": "^1.7.0",
     "underscore.haz": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "jshint-stylish": "^1.0.0"
   }
 }
